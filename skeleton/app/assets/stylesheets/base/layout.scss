@@ -12,6 +12,12 @@ body {
   font-size: 12px;
 }
 
+.grey-background{
+	font-family: $sans-serif;
+  font-weight: bold;
+
+}
+
 button {
 	background-color: $light-blue;
 	border-color: $light-gray;
@@ -21,7 +27,7 @@ button {
 	border-radius: 3px;
 	transition: background-color 0.5s ease;
 	font-family: $sans-serif;
-	// text-transform:
+  margin: 0 1.5px;
 	// font-size:
 	// text-align:
 }
