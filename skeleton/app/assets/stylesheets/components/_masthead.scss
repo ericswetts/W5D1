@@ -25,8 +25,16 @@
 	color: $dark-gray;
 }
 
+.language-nav a:hover {
+  text-decoration: underline;
+}
+
 .language-nav ul {
 	display: flex;
+}
+
+.language-nav a:first-child {
+  font-weight: bold;
 }
 
 .logo {
@@ -40,11 +48,21 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+
+}
+
+.masthead-links ul {
+  display: flex;
 }
 
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+  padding: 0 9px 0 0;
+}
+
+.masthead-links li:last-child{
+  border-right: none;
 }
 
 .masthead-links button {
@@ -59,10 +77,13 @@
 	background-color: $lightest-gray;
 }
 
+.underline-button:hover {
+  text-decoration: underline;
+}
+
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
-	margin-right: 10px;
 }
 
 .masthead-links i {
@@ -71,4 +92,8 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+img {
+  width: inherit;
 }
